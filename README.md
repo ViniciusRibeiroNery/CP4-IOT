@@ -5,9 +5,7 @@ Este repositório reúne o projeto **CP4-IOT**, com foco na análise de dados de
 O objetivo é explorar padrões de consumo, sazonalidade e comportamento energético a partir de conjuntos de dados públicos.
 
 ## 📂 Estrutura do Repositório
-- `notebooks/` — Notebooks Jupyter contendo as análises, gráficos e experimentos.
-- `data/` — **(vazia no repositório)**  
-   ➝ Coloque aqui os arquivos baixados manualmente dos links oficiais listados abaixo.  
+- `notebooks/` — Notebooks contendo as análises, gráficos e experimentos.
 - `README.md` — Este arquivo com instruções.
 
 ## 📥 Conjuntos de Dados
@@ -17,33 +15,15 @@ Baixe manualmente dos links oficiais da UCI Machine Learning Repository:
 - [Individual household electric power consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)  
 - [Appliances energy prediction](https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction)
 
-Após o download, coloque os arquivos dentro da pasta `data/`.
+Após o download, faça o upload diretamente no Colab quando executar o notebook.
 
 ## ⚙️ Requisitos
-- Python 3.8+  
-- Bibliotecas principais:  
-  - `pandas`, `numpy` — manipulação de dados  
-  - `matplotlib`, `seaborn` — visualização  
-  - `scikit-learn` — modelagem e análise  
-  - `jupyter` — execução dos notebooks  
+Você não precisa instalar nada localmente, basta abrir o notebook no **Google Colab**.  
+O ambiente já vem configurado com Python 3.x e as principais bibliotecas:
 
-Crie um ambiente virtual e instale as dependências:
-```bash
-python -m venv .venv
-source .venv/bin/activate     # Linux/macOS
-.\\.venv\\Scripts\\activate   # Windows
-pip install -r requirements.txt
-▶️ Como executar
-Clone este repositório:
-
-bash
-Copiar código
-git clone https://github.com/ViniciusRibeiroNery/CP4-IOT.git
-Baixe os datasets e coloque os arquivos em data/.
-
-Abra e execute os notebooks em notebooks/ com Jupyter.
-
-Analise os gráficos e resultados gerados.
+- `pandas`, `numpy` — manipulação de dados  
+- `matplotlib`, `seaborn` — visualização  
+- `scikit-learn` — modelagem e análise  
 
 📊 Funcionalidades esperadas
 Limpeza e tratamento dos dados energéticos.
